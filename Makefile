@@ -11,7 +11,7 @@ install_extra:
 	unzip -o ./toonhud.zip -d "$(CUSTOM)"
 	# DefaultVerySmall, DefaultSmall, Default
 	bash ./scripts/change_toonhud.sh "$(TOONHUD)/resource/ui/targetid.res" "TargetDataLabel" "font" "G_FontSmall"
-	bash ./scripts/change_toonhud.sh "$(TOONHUD)/resource/ui/targetid.res" "TargetDataLabel" "tall" "50"
+	# bash ./scripts/change_toonhud.sh "$(TOONHUD)/resource/ui/targetid.res" "TargetDataLabel" "tall" "50"
 
 
 macro: medic.cfg macro_template.txt
