@@ -10,7 +10,7 @@ install_extra:
 	unzip -o ./mastercomfig.zip -d "$(TF2_ROOT_DIR)"
 	unzip -o ./toonhud.zip -d "$(CUSTOM)"
 	# DefaultVerySmall, DefaultSmall, Default
-	bash ./scripts/change_toonhud.sh "$(TOONHUD)/resource/ui/targetid.res" "TargetDataLabel" "font" "G_FontSmall"
+	# bash ./scripts/change_toonhud.sh "$(TOONHUD)/resource/ui/targetid.res" "TargetDataLabel" "font" "G_FontSmall"
 	# bash ./scripts/change_toonhud.sh "$(TOONHUD)/resource/ui/targetid.res" "TargetDataLabel" "tall" "50"
 
 
