@@ -1,0 +1,9 @@
+autokey==0.96.0
+evdev==1.7.1
+keyboard==0.13.5
+packaging==24.2
+pyinotify==0.9.6
+pynput==1.7.7
+python-xlib==0.33
+six==1.17.0
+vpk==1.4.0

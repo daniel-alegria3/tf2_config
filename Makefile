@@ -1,3 +1,5 @@
+# Install vpk python package
+
 TF2_ROOT_DIR = $(HOME)/.local/share/Steam/steamapps/common/Team Fortress 2
 CFG = $(TF2_ROOT_DIR)/tf/cfg
 CUSTOM = $(TF2_ROOT_DIR)/tf/custom
